@@ -1,0 +1,32 @@
+#all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+#left div {
+    border: 2px solid black;
+}
+
+
+#right div {
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}
